@@ -11,7 +11,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 lg:pt-0">
       <FloatingParticles />
       
       {/* Content */}
