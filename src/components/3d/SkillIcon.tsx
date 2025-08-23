@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
-import { Text3D, Center } from '@react-three/drei';
+import { Text, Center } from '@react-three/drei';
 import { Mesh } from 'three';
 
 interface SkillIconProps {
@@ -34,14 +34,14 @@ export default function SkillIcon({ position, color, children, rotationSpeed = 1
         metalness={0.8}
       />
       <Center position={[0, 0, 0.76]}>
-        <Text3D
-          font="/fonts/helvetiker_regular.typeface.json"
-          size={0.3}
-          height={0.05}
+        <Text
+          fontSize={0.3}
+          color="white"
+          anchorX="center"
+          anchorY="middle"
         >
           {children}
-          <meshStandardMaterial color="white" />
-        </Text3D>
+        </Text>
       </Center>
     </mesh>
   );
