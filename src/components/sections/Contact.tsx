@@ -54,7 +54,7 @@ export default function Contact() {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Chennai, Tamil Nadu, India',
+      value: 'Trichy, Tamil Nadu, India',
       href: '#'
     }
   ];
