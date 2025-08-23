@@ -11,19 +11,19 @@ const projects = [
     description: 'A comprehensive salon management system with appointment booking, service management, and customer portal. Won 1st Prize & Grant at JIM College.',
     tech: ['React', 'Node.js', 'MongoDB', 'Express'],
     award: '🏆 1st Prize & Grant Winner',
-    image: '/api/placeholder/400/250',
+    image: '/images/jayple.png',
     github: '#',
     live: '#',
     featured: true
   },
   {
-    title: 'Digital Wallet System',
-    subtitle: 'Java-based Money Transaction Platform',
-    description: 'Secure digital wallet application with money transfer, transaction history, and account management features built with Java.',
-    tech: ['Java', 'MySQL', 'JDBC', 'Swing'],
+    title: 'Modern Login Page',
+    subtitle: 'Responsive Login Page with Modern UI',
+    description: 'A sleek and responsive login page designed using HTML, CSS, and JavaScript with smooth animations and a clean UI for authentication systems.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
     image: '/api/placeholder/400/250',
-    github: '#',
-    live: '#'
+    github: 'https://github.com/allwin1906/Modern_Logging_page',
+    live: 'https://allwin1906.github.io/Modern_Logging_page/'
   },
   {
     title: 'Gym Membership Management',
@@ -31,8 +31,8 @@ const projects = [
     description: 'Complete gym management system with member registration, subscription tracking, and admin dashboard.',
     tech: ['Python', 'MySQL', 'Tkinter', 'DBMS'],
     image: '/api/placeholder/400/250',
-    github: '#',
-    live: '#'
+    github: 'https://github.com/allwin1906/Gym-Membership-System',
+    live: 'https://github.com/allwin1906/Gym-Membership-System'
   },
   {
     title: 'WinWheelz',
@@ -45,14 +45,13 @@ const projects = [
     live: '#'
   },
   {
-    title: 'Piezoelectric Shoe',
-    subtitle: 'Energy Harvesting Footwear',
-    description: 'IoT-based footwear that harvests energy from walking and converts it to electrical energy for charging devices.',
-    tech: ['Arduino', 'IoT', 'C++', 'Sensors'],
-    award: '🏅 Innovation Award',
+    title: 'COVID-19 Awareness Website',
+    subtitle: 'Informative Web Portal',
+    description: 'A responsive website created to spread awareness about COVID-19, including safety measures, statistics, and prevention tips.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
     image: '/api/placeholder/400/250',
-    github: '#',
-    live: '#'
+    github: 'https://github.com/allwin1906/Covid_awarness',
+    live: 'https://allwin1906.github.io/Covid_awarness/'
   }
 ];
 
@@ -175,10 +174,16 @@ export default function Projects() {
             viewport={{ once: true }}
             className="text-center mt-12"
           >
+            <a 
+              href="https://github.com/allwin1906" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
             <Button variant="cyber" size="lg">
               <Github className="w-5 h-5" />
               View All Projects on GitHub
             </Button>
+            </a>
           </motion.div>
         </motion.div>
       </div>

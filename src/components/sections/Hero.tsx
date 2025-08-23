@@ -54,7 +54,10 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
           >
-            <Button variant="hero" size="xl" className="group">
+            <Button variant="hero" size="xl" className="group" onClick={() => {
+    const projectSection = document.getElementById('projects');
+    projectSection?.scrollIntoView({ behavior: 'smooth' });
+  }}>
               View My Work
               <motion.div
                 className="ml-2"
@@ -66,7 +69,9 @@ export default function Hero() {
             </Button>
             
             <Button variant="cyber" size="xl">
+              <a href="/ALLWIN_2025_RESUME.pdf" download="ALLWIN_2025_RESUME.pdf">
               Download Resume
+              </a>
             </Button>
           </motion.div>
 
@@ -105,7 +110,7 @@ export default function Hero() {
               className="w-12 h-12 rounded-full"
               asChild
             >
-              <a href="#" aria-label="GitHub">
+              <a href="https://github.com/allwin1906" aria-label="GitHub">
                 <Github className="w-6 h-6" />
               </a>
             </Button>

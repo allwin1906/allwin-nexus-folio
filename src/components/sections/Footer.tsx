@@ -141,7 +141,7 @@ export default function Footer() {
             className="flex flex-col md:flex-row justify-between items-center gap-4"
           >
             <div className="flex items-center gap-2 text-muted-foreground text-sm">
-              <span>© 2024 Allwin E. Made with</span>
+              <span>© 2025 Allwin E. Made with</span>
               <Heart className="w-4 h-4 text-red-500 animate-pulse" />
               <span>and lots of coffee ☕</span>
             </div>

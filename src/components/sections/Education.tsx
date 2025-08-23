@@ -5,15 +5,6 @@ import { GraduationCap, Briefcase, Calendar, MapPin } from 'lucide-react';
 
 const educationData = [
   {
-    title: 'B.Tech Information Technology',
-    institution: 'K Ramakrishnan College of Engineering',
-    period: '2023 - 2027',
-    location: 'Trichy, Tamil Nadu',
-    grade: 'CGPA: 8.26',
-    type: 'education',
-    status: 'current'
-  },
-  {
     title: 'Matrimorphosis\'25 Training & Internship',
     institution: 'Matrimony.com',
     period: '2024 - Present',
@@ -23,11 +14,20 @@ const educationData = [
     status: 'current'
   },
   {
+    title: 'B.Tech Information Technology',
+    institution: 'K Ramakrishnan College of Engineering',
+    period: '2023 - 2027',
+    location: 'Trichy, Tamil Nadu',
+    grade: 'CGPA: 8.26',
+    type: 'education',
+    status: 'current'
+  },
+  {
     title: 'Higher Secondary (XII)',
     institution: 'Campion Anglo Indian Higher Secondary School',
     period: '2023',
-    location: 'Chennai, Tamil Nadu',
-    grade: 'Percentage: 85%',
+    location: 'Trichy, Tamil Nadu',
+    grade: 'Percentage: 74%',
     type: 'education',
     status: 'completed'
   },
@@ -35,8 +35,8 @@ const educationData = [
     title: 'Secondary (X)',
     institution: 'Vasavi Vidhyalaya',
     period: '2021',
-    location: 'Chennai, Tamil Nadu',
-    grade: 'Percentage: 92%',
+    location: 'Trichy, Tamil Nadu',
+    grade: 'Covid Pass',
     type: 'education',
     status: 'completed'
   }
