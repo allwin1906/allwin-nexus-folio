@@ -34,6 +34,19 @@ export default function About() {
               className="space-y-6 order-2 lg:order-1"
             >
               <Card className="glass-morphism p-6 md:p-8 hover:shadow-glow transition-all duration-300">
+                 {/* Profile Photo */}
+  <motion.div
+    initial={{ opacity: 0, scale: 0.9 }}
+    whileInView={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.6 }}
+    className="flex justify-center mb-6"
+  >
+    <img
+      src="/allwin.png"   // <-- keep your photo in /public folder with this name
+      alt="Allwin E"
+      className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-primary shadow-lg object-cover"
+    />
+  </motion.div>
                 <h3 className="text-xl md:text-2xl font-semibold text-primary mb-4">
                   Software Developer & Innovator
                 </h3>
