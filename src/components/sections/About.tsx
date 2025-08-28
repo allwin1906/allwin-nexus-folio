@@ -41,11 +41,15 @@ export default function About() {
     transition={{ duration: 0.6 }}
     className="flex justify-center mb-6"
   >
+     <div className="p-[4px] rounded-full bg-gradient-to-r from-blue-500 to-purple-500">
+    <div className="rounded-full bg-white p-2">
     <img
       src="/allwin.png"   // <-- keep your photo in /public folder with this name
       alt="Allwin E"
       className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-primary shadow-lg object-cover"
     />
+     </div>
+  </div>
   </motion.div>
                 <h3 className="text-xl md:text-2xl font-semibold text-primary mb-4">
                   Software Developer & Innovator
